@@ -1,5 +1,5 @@
 {
-    "name": "hexlet/code",
+    "name": "inqast/php-project-lvl1",
     "bin": [
         "bin/brain-games",
         "bin/brain-even"
