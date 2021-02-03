@@ -8,11 +8,16 @@ const GAME_DEF = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 function isPrime(int $num): bool
 {
+    if ($num == 1) {
+        return false;
+    }
+
     for ($i = 2; $i <= sqrt($num); $i++) {
         if (!(boolval($num % $i))) {
             return false;
         }
     }
+
     return true;
 }
 
