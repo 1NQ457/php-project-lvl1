@@ -18,7 +18,7 @@ function play(string $gameDef, callable $gameLogicFunc): void
         line("Question: %s", $question);
         $answer = prompt('Your answer:');
 
-        if ($answer === $correctAnswer) {
+        if ($answer === strval($correctAnswer)) {
             line('Correct!');
             continue;
         } else {
