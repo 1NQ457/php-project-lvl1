@@ -20,7 +20,7 @@ function run()
 {
     $logic = function () {
         $num = rand(1, 99);
-        $question = "{$num}";
+        $question = $num;
         $correctAnswer = (isPrime($num)) ? 'yes' : 'no';
 
         return [$question, $correctAnswer];
