@@ -6,7 +6,7 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'Find the greatest common divisor of given numbers.';
 
-function gcd($num1, $num2)
+function gcd(int $num1, int $num2): int
 {
     if ($num2 == 0) {
         return $num1;
@@ -15,7 +15,7 @@ function gcd($num1, $num2)
     return gcd($num2, $num1 % $num2);
 }
 
-function run()
+function run(): void
 {
     $logic = function () {
         $num1 = rand(1, 99);

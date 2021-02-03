@@ -6,7 +6,7 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'Answer "yes" if the number is even, otherwise answer "no".';
 
-function run()
+function run(): void
 {
     $logic = function () {
         $question = rand(1, 99);

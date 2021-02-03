@@ -6,7 +6,7 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'What is the result of the expression?';
 
-function run()
+function run(): void
 {
     $logic = function () {
         $num1 = rand(1, 99);
@@ -15,13 +15,13 @@ function run()
         $operator = array_rand($operators);
         $question = "{$num1} {$operators[$operator]} {$num2}";
         switch ($operator) {
-            case "0":
+            case 0:
                 $correctAnswer = $num1 + $num2;
                 break;
-            case "1":
+            case 1:
                 $correctAnswer = $num1 - $num2;
                 break;
-            case "2":
+            case 2:
                 $correctAnswer = $num1 * $num2;
                 break;
         }

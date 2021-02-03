@@ -6,7 +6,7 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-function isPrime($num)
+function isPrime(int $num): bool
 {
     for ($i = 2; $i <= sqrt($num); $i++) {
         if (!($num % $i)) {
@@ -16,7 +16,7 @@ function isPrime($num)
     return true;
 }
 
-function run()
+function run(): void
 {
     $logic = function () {
         $num = rand(1, 99);

@@ -6,7 +6,7 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'What number is missing in the progression?';
 
-function run()
+function run(): void
 {
     $logic = function () {
         $length = rand(5, 10);
