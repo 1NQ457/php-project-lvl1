@@ -6,8 +6,8 @@ use function Brain\Engine\play;
 
 const GAME_DEF = 'Find the greatest common divisor of given numbers.';
 
- function run ()
- {   
+function run()
+{
     $logic = function () {
         $num1 = rand(1, 99);
         $num2 = rand(1, 99);
@@ -18,5 +18,4 @@ const GAME_DEF = 'Find the greatest common divisor of given numbers.';
     };
 
     play(GAME_DEF, $logic);
- }
-
+}
