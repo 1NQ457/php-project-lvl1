@@ -12,3 +12,7 @@
 ### Калькулятор
 
 [![asciicast](https://asciinema.org/a/vU68vRXBuQSOhIzQ6SebTJQdr.svg)](https://asciinema.org/a/vU68vRXBuQSOhIzQ6SebTJQdr)
+
+### НОД
+
+[![asciicast](https://asciinema.org/a/EvIKD9BspiNlEx4vnCQNdk2pU.svg)](https://asciinema.org/a/EvIKD9BspiNlEx4vnCQNdk2pU)
