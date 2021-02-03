@@ -20,3 +20,7 @@
 ### Арифметическая прогрессия
 
 [![asciicast](https://asciinema.org/a/t1bsOMkh3O6RNfj5Bea38E9Ew.svg)](https://asciinema.org/a/t1bsOMkh3O6RNfj5Bea38E9Ew)
+
+### Простое ли число
+
+[![asciicast](https://asciinema.org/a/4BwB1FTvGyhUGOD2dbTdWIFHc.svg)](https://asciinema.org/a/4BwB1FTvGyhUGOD2dbTdWIFHc)
