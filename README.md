@@ -9,6 +9,6 @@
 
 [![asciicast](https://asciinema.org/a/oZif7z7UOmoBrQQq6pSl9RyvA.svg)](https://asciinema.org/a/oZif7z7UOmoBrQQq6pSl9RyvA)
 
-### Проверка на четность
+### Калькулятор
 
 [![asciicast](https://asciinema.org/a/vU68vRXBuQSOhIzQ6SebTJQdr.svg)](https://asciinema.org/a/vU68vRXBuQSOhIzQ6SebTJQdr)
