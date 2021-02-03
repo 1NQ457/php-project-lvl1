@@ -24,7 +24,7 @@ function run()
                 $correctAnswer = $num1 - $num2;
                 break;
             case "2":
-                $correctAnswer = $num1 + $num2;
+                $correctAnswer = $num1 * $num2;
                 break;
         }
 
