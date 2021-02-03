@@ -17,7 +17,7 @@ function gcd(int $num1, int $num2): int
 
 function run(): void
 {
-    $logic = function () {
+    $logic = function (): array {
         $num1 = rand(1, 99);
         $num2 = rand(1, 99);
         $question = "{$num1} {$num2}";

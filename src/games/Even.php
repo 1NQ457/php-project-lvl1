@@ -8,7 +8,7 @@ const GAME_DEF = 'Answer "yes" if the number is even, otherwise answer "no".';
 
 function run(): void
 {
-    $logic = function () {
+    $logic = function (): array {
         $question = rand(1, 99);
         $correctAnswer = ($question % 2 == 0) ? 'yes' : 'no';
 

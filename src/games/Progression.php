@@ -8,7 +8,7 @@ const GAME_DEF = 'What number is missing in the progression?';
 
 function run(): void
 {
-    $logic = function () {
+    $logic = function (): array {
         $length = rand(5, 10);
         $step = rand(2, 10);
         $missingPosition = rand(0, $length - 1);
