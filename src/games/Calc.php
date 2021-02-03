@@ -2,8 +2,6 @@
 
 namespace Brain\Games\Calc;
 
-use function cli\line;
-use function cli\prompt;
 use function Brain\Engine\play;
 
 const GAME_DEF = 'What is the result of the expression?';
